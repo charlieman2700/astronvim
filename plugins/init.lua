@@ -4,6 +4,7 @@ return {
   -- ["nvim-neo-tree/neo-tree.nvim"] = { disable = true },
   -- ['Shatur/neovim-session-manager'] = { disable = true },
   ["Darazaki/indent-o-matic"] = { disable = true },
+  -- ["goolord/alpha-nvim"] = { disable = true },
   { 'lervag/vimtex' },
   { 'xuhdev/vim-latex-live-preview' },
   { 'rhysd/vim-grammarous' },
