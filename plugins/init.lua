@@ -2,12 +2,8 @@
 return {
   -- You can disable default plugins as follows:
   -- ["nvim-neo-tree/neo-tree.nvim"] = { disable = true },
-  ['Shatur/neovim-session-manager'] = { disable = true },
-  { "ahmedkhalf/project.nvim",
-    config = function()
-      require("project_nvim").setup {}
-    end
-  },
+  -- ['Shatur/neovim-session-manager'] = { disable = true },
+  ["Darazaki/indent-o-matic"] = { disable = true },
   { 'lervag/vimtex' },
   { 'xuhdev/vim-latex-live-preview' },
   { 'rhysd/vim-grammarous' },
