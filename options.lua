@@ -7,10 +7,12 @@ return {
                 wrap = false, -- sets vim.opt.wrap
                 spell = false, -- sets vim.opt.spell
                 spelllang = 'es',
-                autoindent = true,
+                -- autoindent = true,
                 expandtab = true,
                 tabstop = 2,
                 shiftwidth = 2,
+                softtabstop = 2,
+                smarttab = false,
         },
         g = {
                 mapleader = " ", -- sets vim.g.mapleader
