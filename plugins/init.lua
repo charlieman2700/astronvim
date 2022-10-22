@@ -9,6 +9,13 @@ return {
   { 'xuhdev/vim-latex-live-preview' },
   { 'rhysd/vim-grammarous' },
   { 'folke/tokyonight.nvim' },
+  {
+    "tzachar/cmp-tabnine",
+    run = "./install.sh",
+    requires = "hrsh7th/nvim-cmp",
+    event = "InsertEnter",
+  },
+  { 'junegunn/limelight.vim' }
 }
 
 -- We also support a key value style plugin definition similar to NvChad:

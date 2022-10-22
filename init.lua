@@ -10,11 +10,6 @@ local config = {
   -- Set colorscheme to use
   colorscheme = "tokyonight",
 
-
-
-
-
-
   -- Modify which-key registration (Use this with mappings table in the above.)
   ["which-key"] = {
     -- Add bindings which show up as group name

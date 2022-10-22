@@ -1,7 +1,7 @@
 local utils = require "core.utils"
 return {
   layout = {
-    { type = "padding", val = 18 },
+    { type = "padding", val = 10 },
     {
       type = "text",
       val = {
@@ -15,7 +15,7 @@ return {
       opts = { position = "center", hl = "DashboardHeader" },
     },
 
-    { type = "padding", val = 2 },
+    { type = "padding", val = 4 },
 
     {
       type = "group",
