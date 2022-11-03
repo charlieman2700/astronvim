@@ -25,7 +25,6 @@ local config = {
       },
     },
   },
-
 }
 
 return config
