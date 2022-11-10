@@ -8,7 +8,7 @@ local config = {
 
 
   -- Set colorscheme to use
-  colorscheme = "tokyonight",
+  colorscheme = "nord",
 
   -- Modify which-key registration (Use this with mappings table in the above.)
   ["which-key"] = {
@@ -27,4 +27,9 @@ local config = {
   },
 }
 
+-- local group = vim.api.nvim_create_augroup('change colors', {clear = true})
+-- vim.api.nvim_create_autocmd('BufEnter', {command = '', group = group})
+--
+
 return config
+

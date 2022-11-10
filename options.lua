@@ -12,7 +12,7 @@ return {
     tabstop = 2,
     shiftwidth = 2,
     softtabstop = 2,
-    smarttab = false,
+    smarttab = true,
     -- foldlevel = 20,
     -- foldmethod = "syntax",
     -- foldlevelstart = 99

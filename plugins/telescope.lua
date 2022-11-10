@@ -85,17 +85,5 @@ return {
     },
   },
   pickers = {},
-  extensions = {
-    repo = {
-      list = {
-        fd_opts = {
-          "--no-ignore-vcs",
-        },
-        search_dirs = {
-          "~/Documents/UCR/",
-        },
-      },
-    },
-  },
-  require("telescope").load_extension "repo"
+  extensions = {},
 }
