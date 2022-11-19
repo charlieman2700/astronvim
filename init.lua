@@ -4,11 +4,16 @@
 -- You can think of a Lua "table" as a dictionary like data structure the
 -- normal format is "key = value". These also handle array like data structures
 -- where a value with no key simply has an implicit numeric key
+--
+--
+vim.cmd [[
+  autocmd BufReadPost,FileReadPost * normal zR
+  ]]
 local config = {
 
 
   -- Set colorscheme to use
-  colorscheme = "nord",
+  colorscheme = "gruvbox-baby",
 
   -- Modify which-key registration (Use this with mappings table in the above.)
   ["which-key"] = {
@@ -32,4 +37,3 @@ local config = {
 --
 
 return config
-

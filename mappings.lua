@@ -15,6 +15,7 @@ return {
     -- ["<leader>fp"] = { "<cmd>SessionManager load_session<cr>", desc = "Load project" },
     ["<leader>fp"] = { function() require 'telescope'.extensions.projects.projects {} end, desc = "Open Projects" },
     ["<leader>fr"] = { "<cmd>Telescope repo list<cr>", desc = "Search Repo" },
+    ["<leader>Pr"] = { "<cmd>:w<cr> :term python3 %<cr>", desc = 'Run Python3 script' },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },

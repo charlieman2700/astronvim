@@ -1,12 +1,12 @@
 return {
   opt = {
     -- set to true or false etc.
-    relativenumber = true, -- sets vim.opt.relativenumber
+    relativenumber = false, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
     spelllang = 'es',
-    spell = true, -- sets vim.opt.spell
+    -- spell = true, -- sets vim.opt.spell
     autoindent = true,
     expandtab = true,
     tabstop = 2,
@@ -17,7 +17,10 @@ return {
     -- foldmethod = "syntax",
     -- foldlevelstart = 99
     -- foldexpr = "nvim_treesitter#foldexpr()",
+    foldmethod = "expr",
+    -- foldexpr = "nvim_treesitter#foldexpr()"
   },
+
   g = {
     mapleader = " ", -- sets vim.g.mapleader
     autoformat_enabled = false, -- enable or disable auto formatting at start (lsp.formatting.format_on_save must be enabled)
@@ -27,10 +30,11 @@ return {
     status_diagnostics_enabled = true, -- enable diagnostics in statusline
     icons_enabled = true, -- disable icons in the UI (disable if no nerd font is available, requires :PackerSync after changing)
     vimtex_view_general_viewer = 'open -a Preview',
-    -- vimtex_view_method = 'Preview',
     livepreview_previewer = 'open -a Preview',
     vimtex_fold_enabled = 1,
-    tex_flavor = 'latex'
+    tex_flavor = 'latex',
+    languagetool_jar = '/Users/charlie/LanguageTool-5.2/languagetool-commandline.jar',
+    languagetool_lang = 'es'
   },
 
   -- If you need more control, you can use the function()...end notation
