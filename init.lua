@@ -13,7 +13,7 @@ local config = {
 
 
   -- Set colorscheme to use
-  colorscheme = "gruvbox-baby",
+  colorscheme = "gruvbox",
 
   -- Modify which-key registration (Use this with mappings table in the above.)
   ["which-key"] = {

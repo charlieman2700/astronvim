@@ -7,18 +7,18 @@ return {
     wrap = false, -- sets vim.opt.wrap
     spelllang = 'es',
     -- spell = true, -- sets vim.opt.spell
-    autoindent = true,
+    autoindent = false,
     expandtab = true,
     tabstop = 2,
     shiftwidth = 2,
     softtabstop = 2,
-    smarttab = true,
+    smarttab = false,
     -- foldlevel = 20,
     -- foldmethod = "syntax",
     -- foldlevelstart = 99
     -- foldexpr = "nvim_treesitter#foldexpr()",
     foldmethod = "expr",
-    -- foldexpr = "nvim_treesitter#foldexpr()"
+    foldexpr = "nvim_treesitter#foldexpr()"
   },
 
   g = {
