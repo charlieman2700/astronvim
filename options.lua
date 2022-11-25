@@ -13,6 +13,7 @@ return {
     shiftwidth = 2,
     softtabstop = 2,
     smarttab = false,
+    spellfile= '/Users/charlie/.config/nvim/lua/user/spellFiles/es.utf-8.add'
 --    foldmethod = "expr",
     --   foldexpr = "nvim_treesitter#foldexpr()"
   },
