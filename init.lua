@@ -13,7 +13,8 @@ local config = {
 
 
   -- Set colorscheme to use
-  colorscheme = "gruvbox",
+  colorscheme = "catppuccin-mocha",
+  --colorscheme catppuccin " catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
 
   -- Modify which-key registration (Use this with mappings table in the above.)
   ["which-key"] = {

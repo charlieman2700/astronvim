@@ -13,12 +13,8 @@ return {
     shiftwidth = 2,
     softtabstop = 2,
     smarttab = false,
-    -- foldlevel = 20,
-    -- foldmethod = "syntax",
-    -- foldlevelstart = 99
-    -- foldexpr = "nvim_treesitter#foldexpr()",
-    foldmethod = "expr",
-    foldexpr = "nvim_treesitter#foldexpr()"
+--    foldmethod = "expr",
+    --   foldexpr = "nvim_treesitter#foldexpr()"
   },
 
   g = {
@@ -33,17 +29,7 @@ return {
     livepreview_previewer = 'open -a Preview',
     vimtex_fold_enabled = 1,
     tex_flavor = 'latex',
-    languagetool_jar = '/Users/charlie/LanguageTool-5.2/languagetool-commandline.jar',
-    languagetool_lang = 'es'
+    --languagetool_jar = '/Users/charlie/LanguageTool-5.2/languagetool-commandline.jar',
+    --languagetool_lang = 'es'
   },
-
-  -- If you need more control, you can use the function()...end notation
-  -- options = function(local_vim)
-  --   local_vim.opt.relativenumber = true
-  --   local_vim.g.mapleader = " "
-  --   local_vim.opt.whichwrap = vim.opt.whichwrap - { 'b', 's' } -- removing option from list
-  --   local_vim.opt.shortmess = vim.opt.shortmess + { I = true } -- add to option list
-  --
-  --   return local_vim
-  -- end,
 }
