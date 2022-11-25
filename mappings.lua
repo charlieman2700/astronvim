@@ -12,10 +12,11 @@ return {
     ["<leader>bc"] = { "<cmd>BufferLinePickClose<cr>", desc = "Pick to close" },
     ["<leader>bj"] = { "<cmd>BufferLinePick<cr>", desc = "Pick to jump" },
     ["<leader>bt"] = { "<cmd>BufferLineSortByTabs<cr>", desc = "Sort by tabs" },
-    -- ["<leader>fp"] = { "<cmd>SessionManager load_session<cr>", desc = "Load project" },
-    ["<leader>fp"] = { function() require 'telescope'.extensions.projects.projects {} end, desc = "Open Projects" },
-    ["<leader>fr"] = { "<cmd>Telescope repo list<cr>", desc = "Search Repo" },
-    ["<leader>Pr"] = { "<cmd>:w<cr> :term python3 %<cr>", desc = 'Run Python3 script' },
+
+    ["<leader>UU"] = { "<cmd>lua vim.diagnostic.config({ virtual_text = false, underline = true, signs = false})<cr>", desc = "Only underline" },
+    ["<leader>UB"] = { "<cmd>lua vim.diagnostic.config({ virtual_text = fale, underline = true, signs = true})<cr>", desc = "Underline and Signs" },
+    ["<leader>US"] = { "<cmd>lua vim.diagnostic.config({ virtual_text = false, underline = false, signs = true })<cr>", desc = "Only Signs" },
+    ["<leader>UA"] = { "<cmd>lua vim.diagnostic.config({ virtual_text = true, underline = true, signs = true })<cr>", desc = "All" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
