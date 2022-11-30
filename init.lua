@@ -49,6 +49,7 @@ local config = {
         end
       },
       { "catppuccin/nvim", as = "catppuccin" },
+
       { 'mattn/emmet-vim' },
 
       { 'morhetz/gruvbox' },
@@ -63,12 +64,12 @@ local config = {
 
       { 'folke/tokyonight.nvim' },
 
-      {
-        "tzachar/cmp-tabnine",
-        run = "./install.sh",
-        requires = "hrsh7th/nvim-cmp",
-        event = "InsertEnter",
-      },
+      -- {
+      --   "tzachar/cmp-tabnine",
+      --   run = "./install.sh",
+      --   requires = "hrsh7th/nvim-cmp",
+      --   event = "InsertEnter",
+      -- },
 
       {
         'phaazon/hop.nvim',
@@ -81,16 +82,16 @@ local config = {
       },
 
       { 'tpope/vim-surround' },
+
       { 'Pocco81/true-zen.nvim' },
 
-      {
-        'uga-rosa/cmp-dictionary',
-        after = "nvim-cmp",
-        config = function()
-          astronvim.add_cmp_source({ name = "dictionary" })
-          require 'user.plugins.userConfigs.cmp-dictionary'
-        end,
-      },
+      -- { 'uga-rosa/cmp-dictionary',
+      --   after = "nvim-cmp",
+      --   config = function()
+      --     astronvim.add_cmp_source({ name = "dictionary" })
+      --     require 'user.plugins.userConfigs.cmp-dictionary'
+      --   end,
+      -- },
     },
 
 
@@ -100,7 +101,6 @@ local config = {
     source_priority = {
       nvim_lsp = 1000,
       luasnip = 750,
-      dictionary = 900,
       emoji = 700,
       pandoc_references = 600,
       buffer = 500,

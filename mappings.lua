@@ -17,6 +17,10 @@ return {
     ["<leader>UB"] = { "<cmd>lua vim.diagnostic.config({ virtual_text = fale, underline = true, signs = true})<cr>", desc = "Underline and Signs" },
     ["<leader>US"] = { "<cmd>lua vim.diagnostic.config({ virtual_text = false, underline = false, signs = true })<cr>", desc = "Only Signs" },
     ["<leader>UA"] = { "<cmd>lua vim.diagnostic.config({ virtual_text = true, underline = true, signs = true })<cr>", desc = "All" },
+
+    ["<leader>lc"] = { "<cmd>term latexindent -l -w %<cr>", desc = "Latex Prettier" },
+
+
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
